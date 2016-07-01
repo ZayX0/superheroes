@@ -1,0 +1,174 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+.body-bg {
+  background: #DEDEDE;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 , h2, p, a {
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+
+.body-wrapper {
+  width: 970px;
+  margin: auto;
+  box-shadow: 10px 0px 20px #C6C6C6,  -10px 0px 20px #C6C6C6;
+  background: white;
+}
+
+/* Top and Title */
+.socialrow-wrapper {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.socialrow {
+  width: 970px;
+  height: auto;
+  background: transparent;
+  margin: auto;
+  border-bottom: 1px solid black;
+}
+
+.socialrow ul {
+  display: inline;
+  padding: 0;
+}
+
+.socialrow li{
+  display: inline-block;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.socialrow img {
+  height: 18px;
+}
+
+.social-icons {
+    float: right;
+    margin: 0;
+}
+
+.title-wrapper {
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.title {
+  width: 970px;
+  height: 250px;
+  margin: auto;
+}
+
+.title h1 {
+  position: absolute;
+  top: 13%;
+  font-size: 50px;
+  color: #169FE6;
+  margin-left: 10px;
+}
+
+.title h2 {
+  position: absolute;
+  top: 50%;
+  margin: 3px 0 0 10px;
+  color: #888896;
+}
+
+
+.search-wrapper {
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  top: 38%;
+}
+
+/* Navigation */
+
+.nav-wrapper {
+  width: 100%;
+}
+
+.sitenav {
+  width: 970px;
+  margin: auto;
+}
+
+.sitenav ul {
+  list-style-type: none;
+  display: table;
+  width: 970px;
+  padding: 0;
+  margin: 0;
+}
+
+.sitenav li{
+  display:table-cell;
+  text-align: center;
+  border: 1px solid white;
+  padding: 10px 0 10px 0;
+  background: black;
+}
+
+.sitenav a {
+  display:block;
+  width: 100%;
+  color: white;
+}
+
+
+
+/* Jumbotron */
+
+.jumbo-wrapper {
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.jumbopic {
+  width: 970px;
+  height: 450px;
+  margin: auto;
+}
+
+.jumbopic img {
+  width: 970px;
+  height: 450px;
+}
+
+/* Info Board */
+
+.info-wrapper {
+  height: 400px;
+  width: 970px;
+  margin: auto;
+}
+
+.info-boxes {
+  width: 646px;
+  position: relative;
+  display: inline-block;
+}
+
+.box {
+  width: 320px;
+  display: inline-block;
+  text-align: center;
+}
+
+.bx {
+  width: 30px;
+}
