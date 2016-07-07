@@ -6,14 +6,13 @@ html, body {
 
 .body-bg {
   background: #DEDEDE;
-  z-index: -1;
 }
 
 a {
   text-decoration: none;
 }
 
-p, a {
+h2, p, a {
     font-family: Oswald, Arial, Helvetica, sans-serif;
 }
 
@@ -22,7 +21,6 @@ p, a {
   margin: auto;
   box-shadow: 10px 0 20px #C6C6C6,  -10px 0 20px #C6C6C6;
   background: white;
-  z-index: -2;
 }
 
 /* Top and Title */
@@ -68,13 +66,13 @@ p, a {
 
 .title {
   width: 970px;
-  height: 250px;
+  height: 150px;
   margin: auto;
 }
 
 .title h1 {
   position: absolute;
-  top: 13%;
+  top: 5px;
   font-size: 50px;
   color: #169fe6;
   margin-left: 10px;
@@ -83,7 +81,7 @@ p, a {
 
 .title h2 {
   position: absolute;
-  top: 50%;
+  top: 60%;
   margin: 3px 0 0 10px;
   color: #888896;
   font-family: Oswald, Arial, Helvetica, sans-serif;
@@ -94,7 +92,7 @@ p, a {
   position: relative;
   float: right;
   margin-right: 10px;
-  top: 38%;
+  top: 41%;
 }
 
 /* Navigation */
@@ -190,23 +188,34 @@ p, a {
 /* Info Board */
 
 .info-wrapper {
+  position: absolute;
   height: 400px;
-  width: 970px;
-  margin: auto;
-}
-
-.info-boxes {
-  width: 646px;
-  position: relative;
+  width: auto;
   display: inline-block;
 }
 
+.info-boxes {
+  width: auto;
+  position: relative;
+  text-align: center;
+}
+
 .box {
-  width: 320px;
+  width: 280px;
   display: inline-block;
   text-align: center;
 }
 
 .bx {
   width: 30px;
+}
+
+/* Sidebar */
+
+.sidebar {
+  float: right;
+  position: relative;
+  height: 500px;
+  width: 41%;
+  text-align: center;
 }
