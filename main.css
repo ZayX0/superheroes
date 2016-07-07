@@ -225,6 +225,11 @@ h2 {
   display:inline-block;
 }
 
+.comic-list {
+  list-style-type: none;
+  padding: 0;
+}
+
 /* Main Content */
 
 .content-wrapper {
