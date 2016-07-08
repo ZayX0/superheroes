@@ -32,39 +32,7 @@ h2 {
 }
 
 /* Top and Title */
-.socialrow-wrapper {
-  width: 100%;
-  height: auto;
-  position: relative;
-}
 
-.socialrow {
-  width: 1020px;
-  height: auto;
-  background: transparent;
-  margin: auto;
-  border-bottom: 1px solid black;
-}
-
-.socialrow ul {
-  display: inline;
-  padding: 0;
-}
-
-.socialrow li{
-  display: inline-block;
-  font-size: 14px;
-  padding: 5px;
-}
-
-.socialrow img {
-  height: 18px;
-}
-
-.social-icons {
-    float: right;
-    margin: 0;
-}
 
 .title-wrapper {
   width: 100%;
@@ -74,13 +42,12 @@ h2 {
 
 .title {
   width: 1020px;
-  height: 150px;
+  height: 140px;
   margin: auto;
 }
 
 h1 {
   position: absolute;
-  top: 5px;
   font-size: 50px;
   color: #169fe6;
   margin-left: 10px;
@@ -101,6 +68,11 @@ h1 {
   float: right;
   margin-right: 10px;
   top: 41%;
+}
+
+.subbtn {
+  border-radius: 10%;
+  margin-left: -4px;
 }
 
 /* Navigation */
@@ -152,7 +124,7 @@ h1 {
   display: none;
   position: absolute;
   background-color: black;
-  min-width: 228px;
+  min-width: 240px;
   margin-top: 10px;
   border: 1px solid #169FE6;
 }
@@ -206,7 +178,7 @@ h1 {
 }
 
 .info-headline {
-    background: left 50% repeat-x url(pattern-headline.png);
+    background: left 50% repeat-x url(img/pattern-headline.png);
     text-align: left;
 }
 
@@ -258,14 +230,24 @@ h1 {
 
 .content-wrapper-post {
   margin-top: 30px;
+  position: relative;
+
 }
 
 .post-title {
+  clear: left;
+  display: block;
   padding-left: 10px;
 }
 
 .blog-text {
-  padding-left: 10px;
+ display: inline;
+}
+
+.blog-entry-picture {
+  width: 150px;
+  float: left;
+  margin: 0 10px 20px 0;
 }
 
 /* Footer */
@@ -273,7 +255,6 @@ h1 {
 .footer {
   background: black;
   height: 50px;
-  text-align: center;
   display: block;
   position: relative;
 }
@@ -285,18 +266,30 @@ h1 {
 .footer a:hover {
   color: #169FE6
 }
+
 .footer-list {
+  display: inline-block;
   list-style-type: none;
   padding: 0;
-  position: absolute;
   color: #ffffff;
-  top: 50%;
-  margin: auto;
-  width: 510px;
 }
 
 .footer-list li {
   margin-left: 30px;
   display: inline;
   font-size: 14px;
+}
+
+.social-icons {
+  display: inline-block;
+  margin: 20px 0 0;
+}
+
+.social-icons li {
+  display: inline;
+  margin-left: 8px;
+}
+
+.social-icons img {
+  width: 20px;
 }
